@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<title>三栏布局圣杯布局</tite>
+<style>
+*{
+  padding:0;
+  margin:0;
+}
+.main{
+  padding:0 220px 0 200px;
+}
+.content,
+.left,
+.right{
+  min-height:300px;
+  float:left;
+}
+.content{
+  min-width:800px;
+  width:100%;
+  background-color:#f00;
+}
+.left{
+  width:200px;
+  background-color:#0f0;
+}
+.right{
+  width:220px;
+  background-color:#00f;
+}
+</style>
+</head>
+<body>
+<div class="main">
+<div class="content"><p>contentcontentcontentcontentcontent</p></div>
+<div class="left"><p>leftleftleftleftleftleftleftleft</p></div>
+<div class="right"><p>rightrightrightrightrightrightright</p></div>
+</div>
+</body>
+</html>
